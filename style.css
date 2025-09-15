@@ -1,0 +1,65 @@
+.phoenix {
+    font-size: 20px;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px coral;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    display: inline-flex;
+    gap:150px;
+    margin: 20px;
+}
+.Navigation-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-top: 20px;
+    margin-right: 450px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.phoenix {
+    margin-right: 400px;
+}
+.signin {
+    margin-right: 50px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(0, 178, 170);
+    border: none;
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.signin:hover {
+     background-color: rgb(255, 3, 255);
+}
+.image1 {
+    height: auto;
+    width: 800px;
+}
+.button {
+    margin-right: 50px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(0, 178, 170);
+    border: none;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: rgb(255, 3, 255);
+    
+}
+.footer {
+    align-items: center;
+}
